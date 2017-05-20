@@ -2,7 +2,7 @@
 
 A programmable RC car:
 
-![car](/images/car.png?raw=true "car")
+![car](/images/background1.png?raw=true "car")
 
 A modified Blockly interface:
 
