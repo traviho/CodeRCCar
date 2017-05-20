@@ -1,2 +1,11 @@
 # kodactive
-A programmable RC car, bluetooth, and a Blockly interface to teach kids how to code
+
+A programmable RC car:
+
+[!car](/images/car.PNG?raw=true "car")
+
+A modified Blockly interface:
+
+[!ui](/images/ui.JGP?raw=true "ui")
+
+Uses rhino library to compile Javascript generated from Blockly.
