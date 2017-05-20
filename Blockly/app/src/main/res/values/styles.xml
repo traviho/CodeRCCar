@@ -1,0 +1,19 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="minScale">0.5</item>
+        <item name="maxScale">2.5</item>
+        <item name="defaultScale">1.0</item>
+
+        <item name="blockTextSize">12sp</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="KTheme" parent="BlocklyVerticalTheme">
+        <item name="blockTextSize">16sp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,32 @@
+<toolbox>
+    <category name="Car" colour="290">
+        <block type="car_forward"></block>
+        <block type="car_backward"></block>
+        <block type="car_right"></block>
+        <block type="car_left"></block>
+        <block type="left_donut"></block>
+        <block type="right_donut"></block>
+    </category>
+    <category name="Logic" colour="290">
+        <block type="controls_if"></block>
+        <block type="controls_ifelse"></block>
+        <block type="logic_negate"></block>
+        <block type="logic_boolean"></block>
+    </category>
+    <category name="Loops" colour="120">
+        <block type="controls_repeat_ext">
+            <value name="TIMES">
+                <shadow type="math_number">
+                    <field name="NUM">10</field>
+                </shadow>
+            </value>
+        </block>
+        <block type="controls_whileUntil">
+            <value name="BOOL">
+                <shadow type="logic_boolean">
+                    <field name="BOOL">TRUE</field>
+                </shadow>
+            </value>
+        </block>
+    </category>
+</toolbox>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="GarageBackground">#35436f</color>
+    <color name="ContinueButtonColor">#c6456f</color>
+    <color name="StageSelectButtonColor">#0a7bff</color>
+    <color name="backgroundcolor">#ffffff</color>
+    <color name="backgroundWhite">#fcfcfcfc</color>
+</resources>

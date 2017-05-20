@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:blockly="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment android:name="com.google.blockly.android.WorkspaceFragment"
+              android:id="@+id/blockly_workspace"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_toEndOf="@+id/blockly_categories_2"
+              android:layout_toRightOf="@id/blockly_categories_2"
+              android:background="#000"
+              blockly:drawGrid="false"
+              />
+
+    <fragment android:name="com.google.blockly.android.FlyoutFragment"
+              android:id="@+id/blockly_trash_ui"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentBottom="true"
+              android:layout_toEndOf="@id/blockly_categories_2"
+              android:layout_toRightOf="@id/blockly_categories_2"
+              blockly:scrollOrientation="horizontal"
+              blockly:closeable="true"
+              tools:ignore="MissingPrefix"/>
+
+
+    <fragment android:name="com.example.travisho.blockly.ModifiedCategorySelectorFragment"
+              android:id="@id/blockly_categories_2"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_alignParentStart="true"
+              android:layout_alignParentLeft="true"
+              blockly:labelRotation="none"
+              blockly:scrollOrientation="vertical"
+              android:background="#000"
+              tools:ignore="MissingPrefix"/>
+    <fragment android:name="com.google.blockly.android.FlyoutFragment"
+              android:id="@+id/blockly_toolbox_ui"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_toEndOf="@id/blockly_categories_2"
+              android:layout_toRightOf="@id/blockly_categories_2"
+              blockly:scrollOrientation="vertical"
+              blockly:closeable="true"
+              tools:ignore="MissingPrefix"/>
+
+
+    <LinearLayout android:id="@+id/blockly_overlay_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <com.google.blockly.android.ui.TrashCanView
+            android:id="@+id/blockly_trash_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/translucent"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/overlay_buttons_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/kody_button"
+            android:id="@+id/kody" />
+    </LinearLayout>
+</RelativeLayout>
