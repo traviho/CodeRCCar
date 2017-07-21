@@ -1,4 +1,4 @@
-# kodactive
+# CodeRCCar
 
 A programmable RC car:
 
